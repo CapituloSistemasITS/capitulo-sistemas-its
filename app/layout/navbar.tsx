@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function Navbar() {
     const pathname = usePathname()
-    const routes:string[][] = [['/', 'Home'], ['/about', 'About'], ['/contact', 'Contact']]
+    const routes:string[][] = [['/', 'Inicio'], ['/about', 'Conocenos'], ['/events', 'Eventos']]
     return (
         <>
         <ul className='flex flex-row items-center'>
