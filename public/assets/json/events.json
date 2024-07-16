@@ -1,0 +1,19 @@
+{
+    "futureEvents": [
+        {
+            "title": "SITEC 2024",
+            "date": "19-09-24",
+            "description": "SITEC es nuestro composium anual de tecnología, donde varias empresas del sector tecnologico exponen temas del interes tecnologico."
+        },
+        {
+            "title": "Event 2",
+            "date": "2021-12-02",
+            "description": "This is the second event"
+        },
+        {
+            "title": "Event 3",
+            "date": "2021-12-03",
+            "description": "This is the third event"
+        }
+    ]
+}
