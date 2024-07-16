@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "./carousel";
+import NewEvents from "./newEvents";
+import OldEvents from "./oldEvents";
 
 export default function Events() {
   var settings = {
@@ -24,13 +25,21 @@ export default function Events() {
           Aqui podras encontrar informacion sobre los eventos que hemos
           realizado y los que estamos por realizar!
         </p>
-        <h1 className="text-2xl font-semibold text-center pt-5">
-          Proximos eventos
-        </h1>
       </div>
-      <div className="w-full pb-10">
-        <div className="max-w-screen-xl mx-auto">
-            <Carousel />
+      <div className="w-full bg-red-500">
+        <div className="max-w-screen-xl mx-auto p-12">
+          <h1 className="text-2xl font-semibold text-center pb-5 text-white">
+            Proximos eventos
+          </h1>
+          <NewEvents />
+        </div>
+      </div>
+      <div className="w-full bg-red-700">
+        <div className="max-w-screen-xl mx-auto p-12">
+          <h1 className="text-2xl font-semibold text-center pb-5 text-white">
+            Eventos pasados
+          </h1>
+          <OldEvents />
         </div>
       </div>
     </main>

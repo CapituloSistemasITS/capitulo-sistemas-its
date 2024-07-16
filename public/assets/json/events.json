@@ -3,17 +3,40 @@
         {
             "title": "SITEC 2024",
             "date": "19-09-24",
-            "description": "SITEC es nuestro composium anual de tecnología, donde varias empresas del sector tecnologico exponen temas del interes tecnologico."
+            "description": "SITEC es nuestro simposium anual de tecnología, donde varias empresas del sector tecnologico exponen temas del interes tecnologico.",
+            "image":"/assets/imgs/sitec24.png"
         },
         {
             "title": "Event 2",
             "date": "2021-12-02",
-            "description": "This is the second event"
+            "description": "This is the second event",
+            "image":"/assets/imgs/sitec24.png"
         },
         {
             "title": "Event 3",
             "date": "2021-12-03",
-            "description": "This is the third event"
+            "description": "This is the third event",
+            "image":"/assets/imgs/sitec24.png"
+        }
+    ],
+    "pastEvents": [
+        {
+            "title": "Concurso de redes 2024",
+            "date": "30-05-24",
+            "description": "Se retomo el concurso de redes, donde los estudiantes de la carrera de ingenieria en sistemas compiten por ser el mejor en configurar redes bajo ciertos requerimentos.",
+            "image":"/assets/imgs/concursoRedes2024/1.jpg"
+        },
+        {
+            "title": "Game Night",
+            "date": "26-04-24",
+            "description": "La game night fue un evento donde los estudiantes de la carrera de ingenieria en sistemas se reunieron para jugar videojuegos y pasar un buen rato.",
+            "image":"/assets/imgs/gameNight24/1.jpg"
+        },
+        {
+            "title": "Conferencia 'Transformando la Rehabilitación a través de la Innovación: Avances en Interfaces Hombre-Máquina'",
+            "date": "11-04-24",
+            "description": "La Dra. Nadia Vanessa García Hernández, Catedrática CONACYT en el programa de Robótica y Manufactura Avanzada del CINVESTAV Unidad Saltillo impartió la conferencia 'Transformando la Rehabilitación a través de la Innovación: Avances en Interfaces Hombre-Máquina'.",
+            "image":"/assets/imgs/conferenciaTransformando/1.jpg"
         }
     ]
 }
