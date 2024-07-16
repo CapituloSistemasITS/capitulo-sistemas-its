@@ -6,12 +6,12 @@ export default function About() {
   const members: Member[] = [
     {
       name: "Mauro Emmanuel Vazquez Alvarado",
-      role: "Presidente",
+      role: "Presidente en licencia",
       image: "/assets/imgs/placeholder.jpg",
     },
     {
       name: "Jose Juan Mares Davila",
-      role: "Vicepresidente",
+      role: "Presidente interino",
       image: "/assets/imgs/placeholder.jpg",
     },
     {
