@@ -7,7 +7,7 @@ const Members = ({member}:{member:Member}) => {
     <div className='w-40 py-3 flex flex-col justify-center items-center bg-guinda-tec rounded-xl shadow-lg shadow-black text-white space-y-2 text-wrap'>
         <p className='text-balance text-center'>{member.name}</p>
         <Image src={member.image} alt={member.name} width={60} height={60} className='rounded-full'/>
-        <p>{member.role}</p>
+        <p className='text-balance text-center'>{member.role}</p>
     </div>
   )
 }
