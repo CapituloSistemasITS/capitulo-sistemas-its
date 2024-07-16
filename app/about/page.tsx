@@ -1,8 +1,29 @@
+import React from "react";
+import { Member } from "../utils/interfaces";
+import Members from "../components/members";
+
 export default function About() {
+  const members: Member[] = [
+    {
+      name: "Mauro Emmanuel Vazquez Alvarado",
+      role: "Presidente",
+      image: "/assets/imgs/placeholder.jpg",
+    },
+    {
+      name: "Jose Juan Mares Davila",
+      role: "Vicepresidente",
+      image: "/assets/imgs/placeholder.jpg",
+    },
+    {
+      name: "Leonardo Contreras Martinez",
+      role: "Secretario primero",
+      image: "/assets/imgs/placeholder.jpg",
+    },
+  ];
   return (
     <main className="w-full text-black">
       <div className="flex flex-col items-center justify-center p-12 max-w-screen-xl mx-auto text-center">
-        <h1 className="text-4xl font-semibold">Sobre nosotros</h1>
+        <h1 className="text-4xl font-semibold pb-5">Sobre nosotros</h1>
         <p className="text-lg font-light text-balance">
           Somos un grupo de estudiantes que buscan lograr integrar a la
           comunidad estudiantil mediante eventos, concursos, talleres y
@@ -36,6 +57,16 @@ export default function About() {
           </div>
           <div className="flex items-center justify-center w-1/4">
             <h1 className="text-2xl font-semibold">Vision</h1>
+          </div>
+        </div>
+      </div>
+      <div className="w-full bg-red-500">
+        <div className="max-w-screen-xl mx-auto p-12 flex flex-col justify-center items-center text-white">
+          <h1 className="text-2xl font-semibold pb-5">Miembros</h1>
+          <div className="flex flex-row justify-center items-center space-x-12">
+            {members.map((member, i) => (
+              <Members member={member} key={i} />
+            ))}
           </div>
         </div>
       </div>
