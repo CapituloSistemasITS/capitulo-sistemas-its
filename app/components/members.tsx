@@ -4,10 +4,10 @@ import { Member } from '../utils/interfaces'
 
 const Members = ({member}:{member:Member}) => {
   return (
-    <div className='w-40 my-4 mx-6 py-3 h-52 flex flex-col justify-center items-center bg-guinda-tec rounded-xl shadow-lg shadow-black text-white space-y-2 text-wrap'>
-        <p className='text-balance text-center'>{member.name}</p>
-        <Image src={member.image} alt={member.name} width={60} height={60} className='rounded-full'/>
-        <p className='text-balance text-center'>{member.role}</p>
+    <div className='md:h-52 md:w-44 md:m-10 md:py-5 w-28 my-4 mx-4 py-4 h-32 flex flex-col justify-center items-center bg-guinda-tec rounded-xl shadow-lg shadow-black text-white space-y-2 text-wrap'>
+        <p className='text-balance text-center text-xs md:text-base'>{member.name}</p>
+        <Image src={member.image} alt={member.name} width={60} height={60} className='rounded-full w-12 md:w-20'/>
+        <p className='text-balance text-center text-xs md:text-base'>{member.role}</p>
     </div>
   )
 }

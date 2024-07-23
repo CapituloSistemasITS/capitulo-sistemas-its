@@ -1,0 +1,63 @@
+{
+    "members":
+    [
+        {
+            "name": "Mauro Vazquez Alvarado",
+            "role": "Presidente en licencia",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Jose Mares Davila",
+            "role": "Presidente interino",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Leonardo Contreras Martinez",
+            "role": "Secretario primero",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Silvia Ramos Mendoza",
+            "role": "Secretaria segundo",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Tania Salomon Garcia",
+            "role": "Tesorera",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Dayana Sanchez Cabello",
+            "role": "Coordinadora de proyectos",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Maximiliano Renteria Salas",
+            "role": "Coordinador de vinculacion",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Luis Hinojosa Martinez",
+            "role": "Coordinador de eventos",
+            "image": "/assets/imgs/placeholder.jpg"
+          },
+          {
+            "name": "Valeria Arango Solis",
+            "role": "Coordinadora de comunicacion",
+            "image": "/assets/imgs/placeholder.jpg"
+          }
+    ],
+    "directors":
+    [
+        {
+            "name": "Ing. Araceli Campos",
+            "role": "Asesora del \u00a0 capitulo",
+            "image": "/assets/imgs/placeholder.jpg"
+        },
+        {
+            "name": "Ing. Javier Mona",
+            "role": "Jefe de departamento",
+            "image": "/assets/imgs/placeholder.jpg"
+        }
+    ]
+}

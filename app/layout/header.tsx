@@ -11,10 +11,13 @@ function Header() {
           width={80}
           height={80}
           alt="Logo"
-          className="mx-2"
+          className="mx-2 w-12 md:w-max"
         />
-        <p className="color-white font-semibold text-xl">
+        <p className="color-white font-semibold md:text-xl md:block hidden">
           Capitulo de sistemas computacionales
+        </p>
+        <p className="color-white font-semibold md:text-xl md:hidden">
+          CSC
         </p>
       </div>
       <div className="">

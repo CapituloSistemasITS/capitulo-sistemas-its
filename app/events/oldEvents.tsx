@@ -34,9 +34,9 @@ function OldEvents() {
         key={index}
         className="flex flex-col items-center justify-center text-white text-center space-y-3 max-h-fit slider-container"
       >
-        <h1 className="text-2xl font-semibold text-white">{event.title}</h1>
-        <Image src={event.image} width={500} height={500} className="mx-auto w-auto rounded-2xl h-96" alt='event-pic' />
-        <p className="text-lg text-white">{event.description}</p>
+        <h1 className="md:text-2xl sm:text-2xl font-semibold text-white">{event.title}</h1>
+        <Image src={event.image} width={500} height={500} className="mx-auto w-auto rounded-2xl" alt='event-pic' />
+        <p className="md:text-lg text-white">{event.description}</p>
       </div>
     ))}
 </Slider>
