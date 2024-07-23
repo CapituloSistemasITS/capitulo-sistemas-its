@@ -35,10 +35,10 @@ function NewEvents() {
             key={index}
             className="flex flex-col items-center justify-center text-white text-center"
           >
-            <h1 className="md:text-2xl font-semibold text-white">{event.title}</h1>
-            <p className="md:text-lg text-white">{event.date}</p>
+            <h1 className="md:text-2xl text-base font-semibold text-white">{event.title}</h1>
+            <p className="md:text-lg text-base text-white">{event.date}</p>
             <Image src={event.image} width={300} height={300} className="mx-auto rounded-lg mb-5" alt='event-pic' />
-            <p className="md:text-lg text-white">{event.description}</p>
+            <p className="md:text-lg text-sm text-white">{event.description}</p>
           </div>
         ))}
     </Slider>
