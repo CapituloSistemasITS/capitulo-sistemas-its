@@ -41,7 +41,7 @@ function Navbar() {
                 {
                     routes.map(([route, name]) => (
                         <li key={name} className='my-5'>
-                            <Link onClick={() => {openNav()}} href={route} className={`link ${pathname == route ? 'font-semibold' : ''}`}>{name}</Link>
+                            <Link onClick={() => {openNav()}} href={route} className={`link ${pathname == route ? 'font-semibold' : ''} text-white`}>{name}</Link>
                         </li>
                     ))
                 }

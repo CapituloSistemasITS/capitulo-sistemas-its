@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function footer() {
   return (
-    <div className='w-full bg-slate-600'>
+    <div className='w-full bg-slate-600 text-white'>
         <div className='flex max-w-4xl justify-between flex-row items-center h-36 mx-auto'>
             <div className='w-3/6'>
                 <p className='text-xs md:text-sm'>Capitulo de sistemas computacionales - Todos los derechos reservados</p>

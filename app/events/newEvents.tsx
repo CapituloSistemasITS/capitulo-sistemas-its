@@ -29,7 +29,7 @@ function NewEvents() {
   };
   return (
     
-    <Slider {...settings} className="w-full flex justify-center items-center bg-blue-900 rounded-2xl p-6 shadow-lg shadow-black">
+    <Slider {...settings} className="w-full mx-auto flex justify-center items-center bg-blue-900 rounded-2xl p-6 shadow-lg shadow-black">
         {events.map((event:Event, index) => (
           <div
             key={index}

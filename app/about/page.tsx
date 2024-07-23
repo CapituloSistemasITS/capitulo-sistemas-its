@@ -18,7 +18,7 @@ export default function About() {
   },[]);
   return (
     <main className="w-full text-black">
-      <div className="flex flex-col items-center justify-center p-12 max-w-screen-xl mx-auto text-center">
+      <div className="flex flex-col items-center justify-center p-12 max-w-screen-xl mx-auto text-center bg-white">
         <h1 className="md:text-4xl font-semibold pb-5 text-2xl">Sobre nosotros</h1>
         <p className="md:text-lg text-sm font-light text-balance">
           Somos un grupo de estudiantes que buscan lograr integrar a la

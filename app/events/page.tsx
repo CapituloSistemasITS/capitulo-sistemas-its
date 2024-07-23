@@ -15,7 +15,7 @@ export default function Events() {
   };
   return (
     <main className="w-full h-full flex flex-col items-center justify-center text-black">
-      <div className="max-w-screen-xl p-12">
+      <div className="max-w-screen-xl p-12 bg-white">
         <h1 className="md:text-3xl text-xl font-semibold text-center">Nuestros eventos</h1>
         <p className="md:text-lg text-sm text-balance text-center">
           Como capitulo estudiantil nos hemos encargado de realizar diversos
@@ -27,7 +27,7 @@ export default function Events() {
         </p>
       </div>
       <div className="w-full bg-red-500">
-        <div className="max-w-screen-xl mx-auto p-12">
+        <div className="max-w-screen-xl mx-auto p-12 mx-auto">
           <h1 className="md:text-2xl text-xl font-semibold text-center pb-5 text-white">
             Proximos eventos
           </h1>
