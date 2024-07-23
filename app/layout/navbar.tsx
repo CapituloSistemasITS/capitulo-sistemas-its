@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Navbar() {
     const pathname = usePathname()
     const [open, setOpen] = useState(false)
-    const routes:string[][] = [['/', 'Inicio'], ['/about', 'Conocenos'], ['/events', 'Eventos'], ['/workshops', 'Talleres'], ['/contact', 'Contacto']]
+    const routes:string[][] = [['/', 'Inicio'], ['/about', 'Conocenos'], ['/events', 'Eventos'], ['/workshops', 'Talleres']]
     const openNav = () => {
         console.log('open')
         setOpen(!open)
