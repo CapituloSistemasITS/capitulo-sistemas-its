@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Popup from "./components/popup";
 
 export default function Home() {
   return (
     <main className="p-12 w-full flex flex-col mx-auto min-h-full">
+      <Popup />
       <div className="text-black mx-auto max-w-screen-xl flex justify-center flex-col items-center text-center">
         <h1 className="md:text-3xl text-xl font-semibold text-center">Capitulo estudiantil de Sistemas computacionales</h1>
         <h1 className="md:text-2xl text-lg font-semibold text-center">2024-2025</h1>
